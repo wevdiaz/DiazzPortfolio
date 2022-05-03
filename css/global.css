@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    /* --- fonts --- */ 
+    --font-base: 'Poppins', sans-serif;
+    --font-logo-firstName: 'Raleway', sans-serif;
+    --font-logo-lastName: 'Water Brush', cursive;
+
+    /* --- Colors --- */
+    --color-logo: #00a8ff;
+
+    font-size: 62.50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-base);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+}
+
+header .logo p {
+    font-family: var(--font-logo-firstName);
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+}
+
+header .logo p::first-letter {
+    font-size: 2.5rem;
+    color: var(--color-logo);
+}
+
+header .logo p #middleName {
+    font-family: var(--font-logo-lastName);
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: var(--color-logo);
+
+    position: absolute;
+    bottom: -20px;
+    right: -15px;
+}
+
+footer {
+    margin-top: auto;
+}
