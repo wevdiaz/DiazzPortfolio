@@ -2,13 +2,69 @@
     background-color: lightpink;
 
     width: 100%;
-    height: 500px;
+    height: 70vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#home .contentHome {
+    padding: 3.2rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home .contentHome .fullNameHome {
+    margin-bottom: 1.6rem;
+}
+
+#home .contentHome .fullNameHome h1 {
+    font-size: 8rem;
+    font-family: var(--font-logo-firstName);
+    line-height: 8rem;
+}
+
+#home .contentHome .fullNameHome h1::first-letter {
+    color: var( --color-logo);
+} 
+
+#home .contentHome .fullNameHome span {
+    color: var(--color-logo);
+    font-family: var(--font-logo-lastName);
+    padding-left: 20rem;
+}
+
+
+#home .contentHome .descriptionHome p{
+    font-size: 2.4rem;
+    color: var( --color-black-font);
+}
+
+#home .contentHome .descriptionHome .btnCv {
+    width: 25rem;
+    margin-top: 4rem;
+    display: block;
+    background-color: var(--color-btn-cv);
+    color: white;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding: .8rem 1.6rem;
+    border-radius: 10px;
+    text-align: center;
+
+    transition: all 250ms ease-in-out;
+}
+
+#home .contentHome .descriptionHome .btnCv:hover {
+    background-color: var(--color-btn-cv-hover);
 }
 
 #home .imageProfileHome {
     width: 20rem;
     height: 20rem;
-
 }
 
 #home .imageProfileHome img {
