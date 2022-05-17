@@ -11,11 +11,14 @@
 
     /* --- Colors --- */
     --color-logo: #00a8ff;
-    --color-black-font: #333;
+    --color-base-font: #021826;
     --color-font-nav: #0a3140;
     --color-font-nav-hover: #91c4d9;
     --color-btn-cv: #245c73;
     --color-btn-cv-hover: #428ba8;
+    --color-footer: #0a3140;
+    --color-bg-profilePhoto: #00a8ff;
+    --color-sectionHome: rgba(145, 196, 217, 0.2);
 
     font-size: 62.50%;
 }
@@ -118,4 +121,15 @@ nav .menu li:hover::before {
 
 footer {
     margin-top: auto;
+    padding: 2.4rem;
+    text-align: center;
+    background-color: var(--color-footer);
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    color: white;
+    font-size: 1.8rem;
 }

@@ -1,11 +1,15 @@
 #home {
-    background-color: lightpink;
+    background-color: var(--color-sectionHome);
 
     width: 100%;
     height: 70vh;
+    margin-top: 3.2rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.3);
+    border-radius: .4rem;
 }
 
 #home .contentHome {
@@ -25,6 +29,7 @@
     font-size: 8rem;
     font-family: var(--font-logo-firstName);
     line-height: 8rem;
+    color: var(--color-base-font);
 }
 
 #home .contentHome .fullNameHome h1::first-letter {
@@ -40,7 +45,7 @@
 
 #home .contentHome .descriptionHome p{
     font-size: 2.4rem;
-    color: var( --color-black-font);
+    color: var(--color-base-font);
 }
 
 #home .contentHome .descriptionHome .btnCv {
@@ -81,4 +86,5 @@
     width: 100%;
     position: absolute;
     top: -120px;
+    background-color: var(--color-bg-profilePhoto);
 }
