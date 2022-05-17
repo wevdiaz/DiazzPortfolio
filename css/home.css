@@ -62,11 +62,23 @@
     background-color: var(--color-btn-cv-hover);
 }
 
+#home .picturesHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #home .imageProfileHome {
-    width: 20rem;
-    height: 20rem;
+    width: 45rem;
+    height: 45rem;
+    background-color: var( --color-logo);
+    position: relative;
+    overflow: hidden;
+    border-radius: 30% 0% 30% 0;
 }
 
 #home .imageProfileHome img {
     width: 100%;
+    position: absolute;
+    top: -120px;
 }
