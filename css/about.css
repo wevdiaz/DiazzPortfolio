@@ -1,0 +1,40 @@
+#about {
+    position: relative;
+}
+
+#about .about-profile {
+    flex-direction: column;
+}
+
+.about-profile .about-profilePhoto {
+    width: 25rem;
+    height: 25rem;
+    border: 10px double var(--color-border);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 6px 4px 4px 1px rgba(0, 0, 0, 0.2);
+
+    margin-bottom: .8rem;
+
+}
+
+.about-profile .about-profilePhoto img {
+    width: 100%;
+}
+
+#about .about-profile h1 {
+    font-size: 3.2rem;
+    line-height: 42px;
+    margin-bottom: 1.6rem;
+    color: var(--color-text-title);
+}
+
+.about-profile blockquote p {
+    font-size: 1.6rem;
+    color: var(--color-text-gray);
+}
+
+.about-profile blockquote small {
+    color: var(--color-logo);
+}
+

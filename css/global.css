@@ -19,6 +19,9 @@
     --color-footer: #0a3140;
     --color-bg-profilePhoto: #00a8ff;
     --color-sectionHome: rgba(145, 196, 217, 0.2);
+    --color-border: #245c73;
+    --color-text-title: #245c73;
+    --color-text-gray: #777;
 
     font-size: 62.50%;
 }
