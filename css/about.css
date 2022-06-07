@@ -106,6 +106,8 @@
 /* --- Formation ---- */
 .about-formation {
     padding: 3.2rem;
+
+    border-top: 2px solid var(--color-border);
 }
 
 .about-formation .about-university {
@@ -129,5 +131,43 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.about-formation p:nth-child(3) {
+    color: var(--color-block-icon);
+    font-weight: 700;
+    margin-bottom: .8rem;
+}
+
+.about-formation ul {
+    width: 90%;
+    columns: 2;
+
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 1.5rem;
+}
+
+.about-formation ul li {
+    position: relative;
+    padding-left: 1.4rem;
+
+    font-style: italic;
+}
+
+.about-formation ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    
+    background-color: var(--color-block-icon);
+    
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.about-formation ul li + li {
+    margin-top: .8rem;
 }
 
