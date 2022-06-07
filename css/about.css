@@ -38,3 +38,54 @@
     color: var(--color-logo);
 }
 
+.about-personal-information {
+    margin-top: 1.6rem;
+    padding: .8rem;
+    color: var(--color-base-font);
+}
+
+.about-personal-information .about-fullname,
+.about-personal-information .about-age,
+.about-personal-information .about-location,
+.about-personal-information .about-me,
+.about-personal-information .about-hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.about-personal-information .about-icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--color-block-icon);
+    margin-right: 1.6rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-personal-information .about-icon ion-icon{
+    font-size: 3rem;
+}
+
+.about-personal-information .about-fullname p {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--color-base-font);
+}
+
+.about-personal-information .about-age p {
+    font-weight: bold;
+    color: var(--color-text-title);
+}
+
+.about-personal-information .about-age #about-AgeCurrent {
+    font-weight: 400;    
+}
+
+.about-personal-information .about-me p {
+    width: 90%;
+}
+
