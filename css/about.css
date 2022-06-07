@@ -64,7 +64,7 @@
     margin-bottom: 1.6rem;
 }
 
-.about-personal-information .about-icon {
+#about .about-icon {
     width: 5rem;
     height: 5rem;
     background-color: var(--color-block-icon);
@@ -76,7 +76,7 @@
     justify-content: center;
 }
 
-.about-personal-information .about-icon ion-icon{
+#about .about-icon ion-icon{
     font-size: 3rem;
 }
 
@@ -101,5 +101,33 @@
 
 .about-personal-information .about-hobby {
     margin-bottom: 0;
+}
+
+/* --- Formation ---- */
+.about-formation {
+    padding: 3.2rem;
+}
+
+.about-formation .about-university {
+    width: 90%;
+    margin-bottom: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-formation .about-university h4 {
+    color: var(--color-text-title);
+}
+
+.about-formation .about-formation-course {
+    width: 90%;
+    color: var(--color-text-title);
+    margin-bottom: .8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
