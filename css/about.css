@@ -108,6 +108,7 @@
     padding: 3.2rem;
 
     border-top: 2px solid var(--color-border);
+    border-bottom: 2px solid var(--color-border);
 }
 
 .about-formation .about-university {
@@ -173,7 +174,29 @@
 
 /* --- Courses ---- */
 .about-courses {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     width: 90%;
     padding: 3.2rem;
+}
+
+.about-courses .about-course-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: .4rem;
+    color: var(--color-text-title);
+}
+
+.about-courses .about-course-description {
+    margin-bottom: 3.2rem;
+}
+
+.about-courses .about-course-description h3 {
+    color: var(--color-block-icon);
+}
+
+.about-courses .about-course-description .learned {
+    font-weight: 600;
+    font-style: italic;
 }
