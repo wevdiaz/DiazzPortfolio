@@ -1,4 +1,9 @@
-#skill .hardskill-img img {
+#skill {
+    padding-bottom: 30rem;
+}
+
+#skill .hardskill-bar img,
+#skill .hardskill-bar-images img {
     width: 45px;
     height: 45px;
 }
