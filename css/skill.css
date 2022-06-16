@@ -2,6 +2,33 @@
     padding-bottom: 30rem;
 }
 
+
+/* -- Cards -- */
+.skill-cards {
+    width: 100%;
+    padding: 3.2rem;
+    background-color: lightblue;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.skill-cards .skill-card {
+    background-color: var(--color-card);
+    padding: 3.2rem;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.skill-card .card-icon {
+    color: white;
+    font-size: 4.2rem;
+}
+
+
+
 #skill .hardskill-bar img,
 #skill .hardskill-bar-images img {
     width: 45px;
