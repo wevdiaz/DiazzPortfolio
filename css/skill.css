@@ -6,31 +6,115 @@
 /* -- Cards -- */
 .skill-cards {
     width: 100%;
+    height: 50vh;
     padding: 3.2rem;
-    background-color: lightblue;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+    
 }
 
 .skill-cards .skill-card {
     background-color: var(--color-card);
     padding: 3.2rem;
     border-radius: 8px;
+    border:  4px solid transparent;
 
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: .5s;
 }
 
 .skill-card .card-icon {
     color: white;
     font-size: 4.2rem;
+
+    transition: .5s ease-out;
+}
+
+.skill-card h1 {
+    font-size: 3.2rem;
+    color: #fff;
+    margin-bottom: .8rem;
+}
+
+.skill-card p {
+    color: var(--color-primary);
+    font-style: italic;
+    line-height: 26px;
+    margin-bottom: 3.2rem;
+}
+
+.skill-card .btn-skills {
+    color: #fff;
+    background-color: var(--color-btn-cv);
+    padding: 1.6rem 2.4rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    transition: .3s ease-in;
+}
+
+.skill-card:hover {
+    transform: translateY(-20px);
+    border-color: var(--color-primary);
+}
+
+.skill-card:hover .card-icon {
+    color: var(--color-primary);
+}
+
+.skill-card .btn-skills:hover {
+    background-color: var(--color-btn-cv-hover);
+}
+
+/* --- HardSkill --- */
+#skill .skill-hardskill {
+    height: 100vh;
+    padding: 3.2rem;
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+
+.skill-hardskill h2 {
+    text-align: center;
+    margin-bottom: 3.2rem;
+    color: var(--color-primary);
+}
+
+.skill-hardskill .hardskill-bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    background-color: #fff;
+    padding: 1.6rem;
+}
+
+.hardskill-bars .hardskill-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.6rem 0;
+    width: 20rem;
 }
 
 
-
-#skill .hardskill-bar img,
-#skill .hardskill-bar-images img {
+#skill .hardskill-bar img {
     width: 45px;
     height: 45px;
+}
+
+.hardskill-bar .skill-meter span {
+    margin-left: .8rem;
+    font-weight: 600;
+    color: var(--color-secondary);
 }

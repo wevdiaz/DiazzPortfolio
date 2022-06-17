@@ -24,6 +24,8 @@
     --color-text-gray: #777;
     --color-block-icon: #00a8ff;
     --color-card: #0a3140;
+    --color-primary: #00a8ff;
+    --color-secondary: #0a3140;
 
     font-size: 62.50%;
 }
