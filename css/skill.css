@@ -2,6 +2,28 @@
     padding-bottom: 30rem;
 }
 
+.btn-back {
+    width: 11rem;
+    padding: .8rem 1.6rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: var(--color-btn-cv);
+    color: #fff;
+    margin: 4.2rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.btn-back:hover {
+    background-color: var(--color-btn-cv-hover);
+}
 
 /* -- Cards -- */
 .skill-cards {
@@ -81,13 +103,24 @@
     padding: 3.2rem;
     width: 90%;
     margin: 0 auto;
-    background-color: lightcyan;
 }
 
 .skill-hardskill h2 {
     text-align: center;
-    margin-bottom: 3.2rem;
+    margin-bottom: 6.4rem;
     color: var(--color-primary);
+}
+
+.skill-hardskill .hardskill-bars::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-btn-cv);
+
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    z-index: -50;
 }
 
 .skill-hardskill .hardskill-bars {
@@ -95,9 +128,15 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 
-    background-color: #fff;
+    background-color: #efefef;
     padding: 1.6rem;
+
+    position: relative;
+
+    box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
+
 
 .hardskill-bars .hardskill-bar {
     display: flex;
