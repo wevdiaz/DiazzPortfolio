@@ -97,21 +97,24 @@
     background-color: var(--color-btn-cv-hover);
 }
 
-/* --- HardSkill --- */
-#skill .skill-hardskill {
+/* --- Skills --- */
+#skill .skill-hardskill,
+#skill .skill-softskill {
     height: 100vh;
     padding: 3.2rem;
     width: 90%;
     margin: 0 auto;
 }
 
-.skill-hardskill h2 {
+.skill-hardskill h2,
+.skill-softskill h2 {
     text-align: center;
     margin-bottom: 6.4rem;
     color: var(--color-primary);
 }
 
-.skill-hardskill .hardskill-bars::before {
+.skill-hardskill .hardskill-bars::before, 
+.skill-softskill .softskill-bars::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -123,7 +126,8 @@
     z-index: -50;
 }
 
-.skill-hardskill .hardskill-bars {
+.skill-hardskill .hardskill-bars,
+.skill-softskill .softskill-bars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -137,7 +141,7 @@
 }
 
 
-
+/* --- HardSkill --- */
 .hardskill-bars .hardskill-bar {
     display: flex;
     align-items: center;
@@ -152,8 +156,42 @@
     height: 45px;
 }
 
-.hardskill-bar .skill-meter span {
+.skill-meter span {
+    font-size: 1.4rem;
     margin-left: .8rem;
     font-weight: 600;
     color: var(--color-secondary);
 }
+
+/* --- Soft Skill --- */
+.softskill-bar {
+    /* background-color: lightcoral;     */
+}
+
+.softskill-bar .softskill-ability {
+    width: 30rem;
+    margin-bottom: .8rem;
+
+    display: flex;    
+    align-items: center;
+}
+
+.softskill-ability .softskill-icon {
+    font-size: 1.2rem;
+    padding: .8rem;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-right: .8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.softskill-ability  p {
+    line-height: 26px;
+    color: var(--color-primary);
+    font-style: italic;
+}
+
