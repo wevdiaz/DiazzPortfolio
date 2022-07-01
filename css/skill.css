@@ -97,27 +97,6 @@
     background-color: var(--color-btn-cv-hover);
 }
 
-.leafs {
-    width: 90%;
-    height: 20rem;
-    margin: 7.2rem auto 2.4rem;
-    padding-top: .8rem;
-    border-top: 4px solid var(--color-primary);
-    opacity: 0.2;
-
-    display: flex;
-    justify-content: right;
-    gap: 16px;
-}
-
-.leafs .leaf {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50% 0;
-    background-color: var(--color-primary);
-}
-
-
 /* --- Skills --- */
 #skill .skill-hardskill,
 #skill .skill-softskill {
