@@ -12,7 +12,7 @@
     max-width: 96rem;
     height: 50rem;
 
-    display: flex;
+    display: flex;    
 }
 
 .contact-container .photo-contact {
@@ -25,20 +25,22 @@
 }
 
 .contact-details {
-    background-color: lavender;
     padding: 3.2rem;
+    background-color: var(--color-card);
 }
 
 .contact-details h1 {
     font-size: 3.2rem;
     line-height: 4.2rem;
-    border-bottom: 1px solid var(--color-border);
-    margin-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-primary);
+    margin-bottom: 3.2rem;
+    color: var(--color-primary);
 }
 
 .contact-details p {
     color: var(--color-border);
-    margin-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
+    color: #fff;
 }
 
 .contact-details .email ion-icon, 
@@ -52,15 +54,38 @@
 .contact-details .city {
     display: flex;
     align-items: center;
-    margin-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
 
-    background-color: yellow;
+    background-color: #fff;
     padding: .8rem 1.6rem;
     border-radius: 2rem;
 }
 
-.contact-details .email a {
+.contact-details .email a,
+.contact-details .city span {
     margin-left: 1.6rem;
     font-size: 1.8rem;
+}
+
+.contact-details .social-media {
+    margin-top: 3.2rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 6.4rem;
+}
+
+.contact-details .social-media a ion-icon {
+    font-size: 4rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.contact-details .social-media a ion-icon:hover {
+    color: var(--color-primary);
 }
 

@@ -16,7 +16,7 @@ function checkPageCurrent(links) {
     for (let link of links) {
         
         const nameLink = link.innerText.toLocaleLowerCase();
-
+        
             if (urlPage === nameLink) {
                 link.className = "active";
             }
