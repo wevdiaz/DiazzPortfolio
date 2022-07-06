@@ -4,6 +4,12 @@
     position: relative;
 }
 
+#about .leafs {
+    margin: 0;
+    height: 10rem;
+    width: 100%;
+}
+
 #about .about-profile {
     flex-direction: column;
 }
@@ -16,8 +22,7 @@
     overflow: hidden;
     box-shadow: 6px 4px 4px 1px rgba(0, 0, 0, 0.2);
 
-    margin-bottom: .8rem;
-
+    margin-bottom: .8rem;    
 }
 
 .about-profile .about-profilePhoto img {
@@ -200,3 +205,4 @@
     font-weight: 600;
     font-style: italic;
 }
+

@@ -164,10 +164,6 @@
 }
 
 /* --- Soft Skill --- */
-.softskill-bar {
-    /* background-color: lightcoral;     */
-}
-
 .softskill-bar .softskill-ability {
     width: 30rem;
     margin-bottom: .8rem;
@@ -210,7 +206,7 @@
     text-align: center;
     font-size: 3rem;
     color: var(--color-primary);
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .gallery-skill .gallery-image-selected {
@@ -225,6 +221,8 @@
 .gallery-images {
     width: 85rem;
     margin: 0 auto;
+    border-top: 3px solid var(--color-secondary);
+    padding-top: 3.2rem;
 
     display: flex;
     justify-content: space-between;
