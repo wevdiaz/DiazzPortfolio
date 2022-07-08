@@ -1,0 +1,32 @@
+#portfolio {
+    padding: 3.2rem;
+}
+
+#portfolio .leafs {
+    margin: 0;
+}
+
+.portfolio-header {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfolio-header h1 {
+    font-size: 3.2rem;
+    font-family: var(--font-logo-firstName);
+    color: var(--color-text-title);
+}
+
+.portfolio-header .total-projects {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-header .quantity-projects {
+    display: flex;
+}

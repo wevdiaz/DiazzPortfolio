@@ -33,7 +33,50 @@
         </header>
 
         <section id="portfolio">         
-            <h1>Portfolio</h1>
+            <div class="portfolio-header">
+                <h1>Projetos</h1>
+                <div class="total-projects">
+                    <div class="icon-project">
+                        <ion-icon name="folder-outline"></ion-icon>
+                    </div>
+                    <div class="quantity-projects">
+                        <span>30</span>
+                        <p>repositórios</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leafs">
+                <div class="leaf"></div>
+                <div class="leaf"></div>
+                <div class="leaf"></div>
+            </div>
+
+            <div class="portfolio-repositories">
+                <div class="portfolio-repository">
+                    <div class="portfolio-repository-icon">
+                        <ion-icon name="reader-outline"></ion-icon>
+                    </div>
+                    <p>Nome do Repositório</p>
+                    <p>Descrição do projeto</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        Veja mais
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </a>
+                </div>
+                
+                <div class="portfolio-repository">
+                    <div class="portfolio-repository-icon">
+                        <ion-icon name="reader-outline"></ion-icon>
+                    </div>
+                    <p>Nome do Repositório</p>
+                    <p>Descrição do projeto</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        Veja mais
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <footer>
@@ -42,6 +85,9 @@
     </div>
 
     <!--JS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/repositories.js"></script>
 </body>
 </html>
