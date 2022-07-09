@@ -1,5 +1,5 @@
 #portfolio {
-    padding: 3.2rem;
+    padding: 3.2rem 3.2rem 10rem;
 }
 
 #portfolio .leafs {
@@ -23,10 +23,112 @@
 }
 
 .portfolio-header .total-projects {
+    background-color: var(--color-primary);
+    padding: 1.6rem 3.2rem;
+    color: #fff;
+    border-radius: 3rem;
+
     display: flex;
     align-items: center;
+}
+
+.portfolio-header .total-projects ion-icon {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+    border-right: 3px solid #fff;
+}
+
+.portfolio-header .total-projects span {
+    font-weight: bold;
+    margin-right: .4rem;
 }
 
 .portfolio-header .quantity-projects {
     display: flex;
 }
+
+.portfolio-repositories {
+    /* background-color: lavender; */
+    padding: .8rem;
+}
+
+.portfolio-repositories  .portfolio-repository {
+    display: flex;   
+
+    margin-bottom: 2rem;
+}
+
+.portfolio-repository .portfolio-repository-icon {
+    width: 10rem;
+    background-color: var(--color-text-title);
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 1rem 0 0 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-repository .portfolio-description {
+    padding: 1.6rem;
+    background-color:rgba(0, 168, 255, 0.1);
+    border-radius: 0 1rem 1rem 0;
+    position: relative;
+}
+
+.portfolio-repository .portfolio-description::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.portfolio-repository .portfolio-description h2 {
+    font-size: 2rem;
+    line-height: 30px;
+    color: var(--color-primary);
+    margin-bottom: .8rem;
+}
+
+.portfolio-repository .portfolio-description p {
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: var(--color-base-font);
+    opacity: 0.7;
+    margin-bottom: 3rem;
+}
+
+.portfolio-repository .portfolio-description a {
+    background-color: var(--color-btn-cv);
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+    width: 13rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: background-color .5s;
+}
+
+.portfolio-repository .portfolio-description a:hover {
+    background-color: var(--color-btn-cv-hover);
+}
+
+.portfolio-repository .portfolio-description a ion-icon {
+    font-size: 2rem;
+}
+
