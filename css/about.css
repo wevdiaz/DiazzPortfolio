@@ -63,7 +63,8 @@
 .about-personal-information .about-age,
 .about-personal-information .about-location,
 .about-personal-information .about-me,
-.about-personal-information .about-hobby {
+.about-personal-information .about-hobby,
+.about-personal-information .about-language {
     display: flex;
     align-items: center;
     margin-bottom: 1.6rem;
@@ -104,8 +105,33 @@
     width: 90%;
 }
 
-.about-personal-information .about-hobby {
-    margin-bottom: 0;
+
+.about-personal-information .about-language .languages{
+    display: flex;
+}
+
+.about-language .languages .language {
+    display: flex;
+}
+
+.about-language .languages .language p {
+    margin-right: .8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--color-text-title);
+}
+
+.about-language .languages .language span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-language .languages .language + .language {
+    padding-left: 1.6rem;
+    margin-left: 1.6rem;
+    border-left: 3px solid var(--color-block-icon);
 }
 
 /* --- Formation ---- */

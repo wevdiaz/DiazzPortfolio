@@ -9,7 +9,8 @@
 }
 
 #contact .leafs {
-    margin-bottom: 0;
+    margin: 4rem 0;
+    height: 10rem;
 }
 
 #contact .contact-container::before {

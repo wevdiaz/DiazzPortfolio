@@ -4,6 +4,8 @@
 
 #portfolio .leafs {
     margin: 0;
+    height: 10rem;
+    width: 100%;
 }
 
 .portfolio-header {
@@ -51,18 +53,20 @@
 }
 
 .portfolio-repositories {
-    /* background-color: lavender; */
     padding: .8rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .portfolio-repositories  .portfolio-repository {
     display: flex;   
-
     margin-bottom: 2rem;
 }
 
 .portfolio-repository .portfolio-repository-icon {
-    width: 10rem;
+    width: 30rem;
     background-color: var(--color-text-title);
     color: white;
     font-weight: bold;
@@ -76,21 +80,10 @@
 
 .portfolio-repository .portfolio-description {
     padding: 1.6rem;
-    background-color:rgba(0, 168, 255, 0.1);
+    background-color: beige;
     border-radius: 0 1rem 1rem 0;
-    position: relative;
 }
 
-.portfolio-repository .portfolio-description::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-}
 
 .portfolio-repository .portfolio-description h2 {
     font-size: 2rem;
