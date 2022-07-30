@@ -28,3 +28,12 @@ function checkPageCurrent(links) {
 
 checkPageCurrent(navMenu);
 
+const btnDarkMode = document.querySelector(".dark-mode input[name='darkmode']");
+
+function changeTheme() {
+    const body = document.querySelector("body");
+    body.classList.toggle("dark");
+}
+
+btnDarkMode.addEventListener("click", changeTheme );
+

@@ -26,6 +26,8 @@
     --color-card: #0a3140;
     --color-primary: #00a8ff;
     --color-secondary: #0a3140;
+    --color-icon-sun: #EE5A24;
+    --color-icon-moon: #fff200;
 
     font-size: 62.50%;
 }
@@ -166,4 +168,43 @@ footer {
 
     color: white;
     font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer small {
+    flex: 1;
+}
+
+footer .dark-mode {
+    width: 10rem;
+}
+
+.dark-mode input[name="darkmode"] {
+    display: none;
+}
+
+.dark-mode .sun,
+.dark-mode .moon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sun {
+    color: var(--color-icon-sun);
+}
+
+.moon {
+    color: var(--color-icon-moon);
+    display: none;
+}
+
+.dark .moon {
+    display: block;
+}
+
+.dark .sun {
+    display: none;
 }

@@ -1,10 +1,11 @@
 #home {
     background-color: var(--color-sectionHome);
 
-    width: 100%;
+    width: 96rem;
     max-width: 140rem;
     height: 70vh;
     margin: 3.2rem auto 0;
+    padding: 1.6rem .8rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -25,6 +26,7 @@
         transform: translateX(0);
     }
 }
+
 
 #home .contentHome {
     padding: 3.2rem;
