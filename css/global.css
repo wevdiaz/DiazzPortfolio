@@ -230,4 +230,5 @@ body.dark {
 }
 .dark footer {
     background-color: #111;
+    color: var(--color-primary);
 }
