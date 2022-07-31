@@ -60,7 +60,7 @@
 
 
 #home .contentHome .descriptionHome p{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     color: var(--color-base-font);
 }
 
@@ -90,8 +90,8 @@
 }
 
 #home .imageProfileHome {
-    width: 45rem;
-    height: 45rem;
+    width: 35rem;
+    height: 35rem;
     background-color: var( --color-logo);
     position: relative;
     overflow: hidden;
@@ -99,8 +99,8 @@
 }
 
 #home .imageProfileHome img {
-    width: 100%;
+    width: 90%;
     position: absolute;
-    top: -120px;
+    top: -72px;
     background-color: var(--color-bg-profilePhoto);
 }
