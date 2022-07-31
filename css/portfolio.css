@@ -125,3 +125,16 @@
     font-size: 2rem;
 }
 
+/* Dark Theme */
+
+.dark .portfolio-header h1 {
+    color: var(--color-primary);
+}
+
+.dark .portfolio-repository .portfolio-description {
+    background-color: #AEB6BF ;
+}
+
+.dark .portfolio-repository .portfolio-description h2 {
+    color: var(--color-text-title);
+}
