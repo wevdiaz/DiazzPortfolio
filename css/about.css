@@ -106,10 +106,7 @@
 }
 
 
-.about-personal-information .about-language .languages{
-    display: flex;
-}
-
+.about-personal-information .about-language .languages,
 .about-language .languages .language {
     display: flex;
 }
@@ -231,3 +228,51 @@
     font-style: italic;
 }
 
+
+/* Dark Theme */
+
+.dark .about-personal-information p,
+.dark .about-language .languages, 
+.dark .about-personal-information .about-fullname p {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.dark #about .about-icon {
+    color: #fff;
+}
+
+
+.dark .about-profile .about-profilePhoto {
+    
+    border-color: var(--color-primary);    
+    box-shadow: 6px 4px 4px 1px rgba(0, 0, 255, 0.1);     
+}
+
+.dark #about .about-profile h1 {
+    color: var(--color-primary);
+}
+
+
+.dark .about-personal-information .about-age p {
+    color: var(--color-primary);
+}
+
+.dark .about-language .languages .language p  {
+    color: var(--color-primary);
+}
+
+.dark .about-courses .about-course-description p {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.dark .about-courses .about-course-description p span.learned {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.dark .about-formation ul li {
+    color: #fff;
+    opacity: 0.7;
+}
