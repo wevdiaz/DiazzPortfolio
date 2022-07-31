@@ -233,13 +233,20 @@
 
 .dark .about-personal-information p,
 .dark .about-language .languages, 
-.dark .about-personal-information .about-fullname p {
+.dark .about-personal-information .about-fullname p,
+.dark .about-courses .about-course-description p,
+.dark .about-formation ul li  {
     color: #fff;
     opacity: 0.7;
 }
 
 .dark #about .about-icon {
     color: #fff;
+}
+
+.dark .about-personal-information {    
+
+    box-shadow: 2px 2px 12px -1px rgba(255, 255, 255, 0.1);
 }
 
 
@@ -262,17 +269,7 @@
     color: var(--color-primary);
 }
 
-.dark .about-courses .about-course-description p {
-    color: #fff;
-    opacity: 0.7;
-}
-
 .dark .about-courses .about-course-description p span.learned {
     opacity: 1;
     font-weight: bold;
-}
-
-.dark .about-formation ul li {
-    color: #fff;
-    opacity: 0.7;
-}
+} 
