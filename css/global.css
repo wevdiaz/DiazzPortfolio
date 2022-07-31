@@ -29,6 +29,9 @@
     --color-icon-sun: #EE5A24;
     --color-icon-moon: #fff200;
 
+    /* Dark Theme Colors */
+    --color-bg-dark: #17202A ;
+
     font-size: 62.50%;
 }
 
@@ -203,4 +206,28 @@ footer .dark-mode {
 
 .dark .sun {
     display: none;
+}
+
+body.dark {
+    background-color: var(--color-bg-dark);
+    color: #fff;
+}
+
+.dark header .logo p {
+    color: #fff;
+}
+
+.dark nav .menu li a {
+    color: #fff;
+}
+
+.dark nav .menu li a:hover {
+    color: var(--color-font-nav-hover);
+}
+
+.dark nav .menu li a.active {
+    color: var(--color-font-nav-hover);
+}
+.dark footer {
+    background-color: #111;
 }
