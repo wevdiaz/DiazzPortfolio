@@ -1,5 +1,5 @@
 #portfolio {
-    padding: 3.2rem 3.2rem 10rem;
+    padding: 3.2rem 3.2rem 0;
 }
 
 #portfolio .leafs {
@@ -63,10 +63,11 @@
 .portfolio-repositories  .portfolio-repository {
     display: flex;   
     margin-bottom: 2rem;
+    height: 37rem;
 }
 
 .portfolio-repository .portfolio-repository-icon {
-    width: 30rem;
+    width: 10rem;
     background-color: var(--color-text-title);
     color: white;
     font-weight: bold;
@@ -82,6 +83,11 @@
     padding: 1.6rem;
     background-color: beige;
     border-radius: 0 1rem 1rem 0;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 

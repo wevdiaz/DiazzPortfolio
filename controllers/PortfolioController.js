@@ -1,3 +1,6 @@
+
+const axios = require("axios").default;
+
 module.exports = {
 
   home(req, res) {
@@ -8,8 +11,20 @@ module.exports = {
     return res.render("about");
   },
 
-  portfolio(req, res) {
-    return res.render("portfolio");
+  portfolio(req, res) {  
+
+    axios({
+      baseURL: "https://api.github.com/users/wevdiaz/repos",
+    }).then((response) => {
+      return response.data;
+    }).then((response) => {
+      const repositories = response;
+
+      
+      return res.render("portfolio", { repositories });
+    })
+    .catch((err) => console.log(err));      
+        
   },
 
   skill(req, res) {

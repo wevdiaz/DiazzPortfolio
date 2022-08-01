@@ -177,6 +177,33 @@ footer small {
     flex: 1;
 }
 
+/* Btn Back */
+.btn-back {
+    width: 11rem;
+    padding: .8rem 1.6rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: var(--color-btn-cv);
+    color: #fff;
+    margin: 4.2rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.btn-back:hover {
+    background-color: var(--color-btn-cv-hover);
+}
+
+
+/* Dark Mode */
+
 footer .dark-mode {
     width: 10rem;
 }
