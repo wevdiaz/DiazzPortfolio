@@ -1,0 +1,27 @@
+{
+  "name": "diazzportfolio",
+  "version": "1.0.1",
+  "description": "Em desenvolvimento o portfolio Diazz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wevdiaz/DiazzPortfolio.git"
+  },
+  "keywords": [],
+  "author": "Diazz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wevdiaz/DiazzPortfolio/issues"
+  },
+  "homepage": "https://github.com/wevdiaz/DiazzPortfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
