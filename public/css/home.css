@@ -115,3 +115,47 @@
     color: #fff;
     opacity: 0.7;
 }
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+   
+    #home {       
+    
+        width: 100%;
+        max-width: 80rem;       
+    }
+
+    #home .contentHome .fullNameHome {
+        margin-bottom: 0;
+    }
+
+    #home .contentHome .fullNameHome h1 {
+        font-size: 5rem;   
+           
+    }
+
+    #home .contentHome .fullNameHome span {
+        position: relative;
+        top: -3rem;
+    }
+
+    #home .contentHome .descriptionHome p{
+        font-size: 1.6rem;
+    }
+    
+    #home .contentHome .descriptionHome .btnCv {
+        width: 20rem;        
+        font-size: 2rem;        
+    }
+
+    #home .imageProfileHome {
+        width: 30rem;
+        height: 30rem;        
+    }
+    
+    #home .imageProfileHome img {        
+        top: -60px;
+    }
+}
