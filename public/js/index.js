@@ -26,6 +26,16 @@ function checkPageCurrent(links) {
     }
 }
 
+const navMenuMobile = document.querySelector("nav .menu-mobile");
+
+function openMenuMobile() {
+    const menu = document.querySelector("nav .menu");
+
+    menu.classList.add("active");
+}
+
+navMenuMobile.addEventListener("click", openMenuMobile );
+
 checkPageCurrent(navMenu);
 
 const btnDarkMode = document.querySelector(".dark-mode input[name='darkmode']");

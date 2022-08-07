@@ -159,3 +159,34 @@
         top: -60px;
     }
 }
+
+
+@media (max-width: 900px) {
+    #home {
+        max-width: 65rem;
+    }
+
+    #home .contentHome .fullNameHome h1 {
+        font-size: 4rem;
+    }
+
+    #home .contentHome .fullNameHome span {
+        top: -4.5rem;
+        left: -6rem;
+    }
+
+    #home .contentHome .descriptionHome .btnCv {
+        width: 14rem;
+        font-size: 1.5rem;
+    }
+
+    #home .imageProfileHome {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    #home .imageProfileHome img {
+        top: -50px;
+    }
+
+}
