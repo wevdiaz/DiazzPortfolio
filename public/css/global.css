@@ -10,22 +10,23 @@
 
 
     /* --- Colors --- */
-    --color-logo: #00a8ff;
-    --color-base-font: #021826;
-    --color-font-nav: #0a3140;
-    --color-font-nav-hover: #91c4d9;
-    --color-btn-cv: #245c73;
-    --color-btn-cv-hover: #428ba8;
-    --color-footer: #0a3140;
-    --color-bg-profilePhoto: #00a8ff;
-    --color-sectionHome: rgba(145, 196, 217, 0.2);
-    --color-border: #245c73;
-    --color-text-title: #245c73;
-    --color-text-gray: #777;
-    --color-block-icon: #00a8ff;
-    --color-card: #0a3140;
     --color-primary: #00a8ff;
     --color-secondary: #0a3140;
+    --color-auxiliary: #245c73;
+    --color-logo: var(--color-primary);
+    --color-base-font: #021826;
+    --color-font-nav: var(--color-secondary);
+    --color-font-nav-hover: #91c4d9;
+    --color-btn-cv: var(--color-auxiliary);
+    --color-btn-cv-hover: #428ba8;
+    --color-footer: var(--color-secondary);
+    --color-bg-profilePhoto: var(--color-primary);
+    --color-sectionHome: rgba(145, 196, 217, 0.2);
+    --color-border: var(--color-auxiliary);
+    --color-text-title: var(--color-auxiliary);
+    --color-text-gray: #777;
+    --color-block-icon: var(--color-primary);
+    --color-card: var(--color-secondary);
     --color-icon-sun: #EE5A24;
     --color-icon-moon: #fff200;
 
