@@ -251,3 +251,46 @@
         width: 14rem;
     }
 }
+
+@media (max-width: 900px) {    
+
+    .skill-cards {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+
+    #skill .leafs {
+        margin: 0;
+    }
+
+    #skill .hardskill-bar img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .skill-meter span {
+        font-size: 1.2rem;        
+    }
+
+    .softskill-ability p {
+        font-size: 1.2rem;
+    }
+
+    .skill-meter span {
+        font-size: 1rem;
+    }
+
+    .gallery-skill .gallery-image-selected {
+        width: 63rem;
+    }
+
+    .gallery-images {
+        width: 63rem;
+    }
+
+    .gallery-images .gallery-image {
+        width: 10rem;
+    }
+}

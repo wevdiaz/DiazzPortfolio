@@ -273,3 +273,29 @@
     opacity: 1;
     font-weight: bold;
 } 
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+    #about {
+        font-size: 1.4rem;
+    }
+
+    .about-profile .about-profilePhoto {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #about .about-profile h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-profile blockquote p {
+        font-size: 1.4rem;
+    }
+
+    .about-profile blockquote small {        
+        font-size: 1.2rem;
+    }
+}

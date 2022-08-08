@@ -144,3 +144,12 @@
 .dark .portfolio-repository .portfolio-description h2 {
     color: var(--color-text-title);
 }
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+    .portfolio-repositories {        
+        grid-template-columns: 1fr;
+    }   
+}

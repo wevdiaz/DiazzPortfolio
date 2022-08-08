@@ -303,4 +303,9 @@ body.dark {
     .dark nav .menu.active {
         background-color: var(--color-bg-dark);
     }
+
+    .btn-back {
+        width: 10rem;        
+        font-size: 1.4rem;        
+    }
 }
