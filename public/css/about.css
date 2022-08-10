@@ -32,7 +32,7 @@
 #about .about-profile h1 {
     font-size: 3.2rem;
     line-height: 42px;
-    margin-bottom: 1.6rem;
+    margin: 1.6rem 0;
     color: var(--color-text-title);
 }
 
@@ -296,6 +296,106 @@
     }
 
     .about-profile blockquote small {        
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #about {
+        font-size: 1.2rem;
+    }
+
+    .about-profile .about-profilePhoto {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #about .about-profile h1 {
+        font-size: 2rem;
+    }
+
+    .about-profile blockquote p {
+        font-size: 1.2rem;
+    }
+
+    .about-profile blockquote small {
+        font-size: 1rem;
+    }
+
+    #about .leafs {
+        height: 7rem;        
+    }
+
+    #about .leafs .leaf {
+        width: 3rem;
+        height: 3rem;        
+    }
+
+    #about .about-icon {
+        width: 3.2rem;
+        height: 3.2rem;        
+    }
+
+    #about .about-icon ion-icon {
+        font-size: 1.6rem;
+    }
+
+    .about-personal-information .about-fullname p {
+        font-size: 2rem;       
+    }
+
+    .about-personal-information .about-language .languages {
+        display: block;
+    }
+
+    .about-language .languages .language + .language {
+        padding-top: 0.4rem;
+        padding-left: 0;
+        margin-left: 0;
+        border-top: 3px solid var(--color-block-icon);
+        border-left: none;
+    }
+
+    .about-language .languages .language p {
+        font-size: 1.2rem;        
+    }
+
+    .about-language .languages .language span {
+        font-size: 1rem;        
+    }
+
+    .about-formation ul {
+        columns: 1;        
+        font-size: 1.2rem;
+    }
+
+    .about-formation ul li::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 4px;
+        top: 7px;
+    }
+
+    .about-courses {
+        padding: 2rem;
+    }
+
+    .about-courses .about-course-title {        
+        flex-wrap: wrap;
+    }
+
+    .about-courses .about-course-title h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-courses .about-course-title p {
+        font-size: 1rem;
+    }
+
+    .about-courses .about-course-description h3 {
         font-size: 1.2rem;
     }
 }

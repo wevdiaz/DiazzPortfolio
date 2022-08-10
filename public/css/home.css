@@ -190,3 +190,41 @@
     }
 
 }
+
+@media (max-width: 500px) {
+
+    #home {
+        display: block;
+    }
+
+    #home .picturesHome {
+        display: none;
+    }
+
+    #home .contentHome {
+        padding: 1rem;
+    }
+
+    #home .contentHome .fullNameHome  {
+        margin-bottom: 2rem;
+    }
+
+    #home .contentHome .fullNameHome h1 {
+        line-height: 5rem;
+    }
+
+    #home .contentHome .fullNameHome span {
+        top: -1.5rem;
+        left: -7rem;
+    }
+
+    #home .contentHome .descriptionHome p {
+        font-size: 1.4rem;
+    }
+
+    #home .contentHome .descriptionHome .btnCv {
+        width: 12rem;
+        font-size: 1.2rem;
+        margin: 6rem auto 0;
+    }
+}

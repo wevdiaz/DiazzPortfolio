@@ -312,3 +312,28 @@ body.dark {
         font-size: 1.4rem;        
     }
 }
+
+
+@media (max-width: 500px) {
+
+    header .logo p {
+        font-size: 1.4rem;        
+    }
+
+    header .logo p::first-letter {
+        font-size: 2rem;
+    }
+
+    header .logo p #middleName {        
+        font-size: 1.8rem;
+        bottom: -18px;
+    }
+
+    footer .dark-mode {
+        width: 5rem;
+    }
+
+    footer small {
+        font-size: 1.2rem;
+    }
+}
