@@ -19,7 +19,6 @@ module.exports = {
       return response.data;
     }).then((response) => {
       const repositories = response;
-
       
       return res.render("portfolio", { repositories });
     })
