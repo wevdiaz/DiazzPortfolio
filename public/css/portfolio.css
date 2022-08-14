@@ -81,7 +81,7 @@
 
 .portfolio-repository .portfolio-description {
     padding: 1.6rem;
-    background-color: beige;
+    background-color: var(--color-card-Portfolio);
     border-radius: 0 1rem 1rem 0;
     flex: 1;
 
@@ -154,7 +154,7 @@
     }   
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
 
     #portfolio {
         padding: 2rem 2rem 0;
@@ -197,8 +197,9 @@
     .portfolio-repositories .portfolio-repository {        
         flex-direction: column;
         width: 250px;
+        justify-self: center;
     }
-
+    
     .portfolio-repository .portfolio-repository-icon {
         width: 100%;        
         font-size: 2.4rem;
@@ -207,6 +208,15 @@
         align-items: left;
         padding: 0.8rem;
         justify-content: left;
+    }
+
+    .portfolio-repository .portfolio-description {       
+        border-radius: 0;        
+    }
+
+    .portfolio-repository .portfolio-description h2 {
+        font-size: 1.6rem;
+        line-height: 26px;        
     }
 
     .portfolio-repository .portfolio-description p {

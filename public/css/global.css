@@ -22,6 +22,7 @@
     --color-footer: var(--color-secondary);
     --color-bg-profilePhoto: var(--color-primary);
     --color-sectionHome: rgba(145, 196, 217, 0.2);
+    --color-card-Portfolio: lightcyan;
     --color-border: var(--color-auxiliary);
     --color-text-title: var(--color-auxiliary);
     --color-text-gray: #777;
@@ -314,7 +315,7 @@ body.dark {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 735px) {
 
     header .logo p {
         font-size: 1.4rem;        

@@ -32,7 +32,12 @@
                         </div>
                         <div class="portfolio-description">
                             <h2>{{ repository.name }}</h2>
-                            <p>{{ repository.description }}</p>
+                            
+                            {% if repository.description ===  null %}
+                                <p>O projeto está sem descrição</p>
+                            {% else %}
+                                <p>{{ repository.description }}</p>
+                            {% endif %}
                             <a href="{{ repository.html_url }}" target="_blank" rel="noopener noreferrer">
                                 Veja mais
                                 <ion-icon name="log-out-outline"></ion-icon>

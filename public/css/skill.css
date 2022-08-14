@@ -236,6 +236,16 @@
     opacity: 1;
 }
 
+/* Dark Mode */
+
+.dark .skill-hardskill .hardskill-bars, .dark .skill-softskill .softskill-bars {
+    background-color: #AEB6BF;
+}
+
+.dark .softskill-ability p {
+    color: var(--color-card);
+}
+
 /* Responsive */
 
 @media (max-width: 1100px) {
@@ -299,7 +309,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 735px) {
     .skill-cards {
         padding: 1rem;
     }
@@ -324,18 +334,25 @@
         margin-bottom: 2.2rem;
     }
 
+
     .skill-card .btn-skills {        
         font-size: 1.4rem;
     }
 
     #skill .leafs {
         margin-top: 3rem;
+        height: 10rem;
+    }
+
+    #skill .leafs .leaf {
+        width: 3rem;
+        height: 3rem;        
     }
 
     .skill-hardskill .hardskill-bars::before, .skill-softskill .softskill-bars::before {
         content: "";
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         position: absolute;
         right: -20px;
         top: -20px;
@@ -346,6 +363,15 @@
         width: 100%;
         height: 100%;
         margin-bottom: 3rem;
+    }
+
+    .skill-hardskill .hardskill-bars .hardskill-bar {
+        margin-bottom: 0;
+    }
+
+    .skill-hardskill .hardskill-bars .hardskill-bar + .hardskill-bar {
+        border-top: 1px solid #7a7a7a;
+        padding-top: 1rem;
     }
 
     .skill-hardskill .hardskill-bars, .skill-softskill .softskill-bars {
@@ -366,9 +392,31 @@
     }
 
     #skill .skill-softskill .softskill-bars .softskill-bar + .softskill-bar {
-        border-top: 2px solid #d5d5d5;
+        border-top: 1px solid #7a7a7a;
         padding-top: 1rem;
         width: 90%;
     }
+
+    .gallery-skill .gallery-image-selected {
+        width: 25rem;
+    }
+
+    
+    .gallery-images {
+    width: 25rem;
+    flex-wrap: wrap;
+    gap: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .skill-card p {
+        width: 135px;
+    }
+
+    .skill-card:nth-child(3) p {
+        font-size: smaller;
+    } 
 }
 

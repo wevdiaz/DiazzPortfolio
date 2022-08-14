@@ -143,3 +143,52 @@
         font-size: 3rem;        
     }
 }
+
+@media (max-width: 735px) {
+
+    #contact .contact-container {
+        width: 32rem;
+        height: max-content;
+    }
+
+    .contact-container .photo-contact {
+        display: none;
+    }
+
+    .contact-details {
+        padding: 1.6rem;
+    }
+
+    .contact-details h1 {
+        font-size: 2rem;
+    }
+
+    .contact-details p {        
+        font-size: 1.4rem;
+    }
+
+    .contact-details .email ion-icon, .contact-details .city ion-icon {
+        font-size: 2rem;        
+    }
+
+    .contact-details .email a, .contact-details .city span {        
+        font-size: 1.4rem;
+    }
+
+    .contact-details .social-media {
+        margin-bottom: 2rem;
+    }
+
+    #contact .contact-container::before {
+        display: none;
+    }
+
+    #contact .leafs {
+        margin: 2rem 0;
+    }
+
+    #contact .leafs .leaf {
+        width: 3rem;
+        height: 3rem;
+    }
+}
