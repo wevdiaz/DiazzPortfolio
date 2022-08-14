@@ -191,10 +191,11 @@
 
 }
 
-@media (max-width: 735px) {
+@media (max-width: 700px) {
 
     #home {
         display: block;
+        height: max-content;
     }
 
     #home .picturesHome {
@@ -207,6 +208,7 @@
 
     #home .contentHome .fullNameHome  {
         margin-bottom: 2rem;
+        text-align: center;
     }
 
     #home .contentHome .fullNameHome h1 {
@@ -214,12 +216,13 @@
     }
 
     #home .contentHome .fullNameHome span {
-        top: -1.5rem;
-        left: -7rem;
+        position: static;
+        padding-left: 0;
     }
 
     #home .contentHome .descriptionHome p {
         font-size: 1.4rem;
+        text-align: center;
     }
 
     #home .contentHome .descriptionHome .btnCv {
