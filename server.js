@@ -2,7 +2,9 @@ const express = require("express");
 const nunjucks = require("nunjucks");
 const server = express();
 const routes = require("./routes/routes");
+const cors = require("cors");
 
+server.use(cors());
 server.use(express.static("public"));
 server.use(routes);
 
@@ -14,7 +16,7 @@ nunjucks.configure("views", {
   noCache: true
 });
 
-server.listen(3000, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("http://localhost:3000");
   console.log("working server now!");
 });
