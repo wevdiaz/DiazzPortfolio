@@ -1,5 +1,6 @@
 #portfolio {
     padding: 3.2rem 3.2rem 0;
+    position: relative;
 }
 
 #portfolio .leafs {
@@ -131,6 +132,34 @@
     font-size: 2rem;
 }
 
+.button-float {
+    background-color: #efefef;
+    width: 50px;
+    height: 50px;
+    padding: .8rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary);
+    color: var(--color-primary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .4s;
+
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    margin-right: 50px;
+}
+
+.button-float:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
 /* Dark Theme */
 
 .dark .portfolio-header h1 {
@@ -143,6 +172,17 @@
 
 .dark .portfolio-repository .portfolio-description h2 {
     color: var(--color-text-title);
+}
+
+.dark .button-float {
+    background-color: var(--color-primary);
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark .button-float:hover {
+    background-color: #fff;
+    color: var(--color-primary);
 }
 
 

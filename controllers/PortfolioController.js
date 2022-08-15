@@ -11,7 +11,7 @@ module.exports = {
     return res.render("about");
   },
 
-  portfolio(req, res) {  
+  async portfolio(req, res) {  
 
     axios({
       baseURL: "https://api.github.com/users/wevdiaz/repos",
