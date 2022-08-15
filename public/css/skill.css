@@ -397,15 +397,23 @@
         width: 90%;
     }
 
+    .gallery-skill {
+        height: 100%;
+        margin-bottom: 0;
+    }
+
     .gallery-skill .gallery-image-selected {
-        width: 25rem;
+        width: 100%;
     }
 
     
     .gallery-images {
-    width: 25rem;
-    flex-wrap: wrap;
+    width: 100%;
     gap: 8px;
+    }
+
+    .btn-back {
+        margin-bottom: 0;
     }
 }
 

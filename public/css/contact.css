@@ -147,7 +147,7 @@
 @media (max-width: 735px) {
 
     #contact .contact-container {
-        width: 32rem;
+        width: 90%;
         height: max-content;
     }
 
