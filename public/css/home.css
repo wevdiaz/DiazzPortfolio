@@ -7,8 +7,7 @@
     margin: 3.2rem auto 0;
     padding: 1.6rem .8rem;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
 
     box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.3);
     border-radius: .4rem;
@@ -87,6 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.6rem;
 }
 
 #home .imageProfileHome {
@@ -127,18 +127,14 @@
         max-width: 80rem;       
     }
 
-    #home .contentHome .fullNameHome {
-        margin-bottom: 0;
-    }
-
+    
     #home .contentHome .fullNameHome h1 {
-        font-size: 5rem;   
-           
+        font-size: 5rem;  
+        line-height: 5rem;           
     }
 
     #home .contentHome .fullNameHome span {
-        position: relative;
-        top: -3rem;
+        padding-left: 13rem;
     }
 
     #home .contentHome .descriptionHome p{
@@ -194,14 +190,9 @@
 @media (max-width: 700px) {
 
     #home {
-        display: block;
-        height: max-content;
+        flex-direction: column-reverse;
     }
-
-    #home .picturesHome {
-        display: none;
-    }
-
+    
     #home .contentHome {
         padding: 1rem;
     }
@@ -225,9 +216,24 @@
         text-align: center;
     }
 
+    #home .imageProfileHome {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #home .imageProfileHome img {
+        top: -30px;
+    }
+
     #home .contentHome .descriptionHome .btnCv {
         width: 12rem;
         font-size: 1.2rem;
-        margin: 6rem auto 0;
+        margin: 4rem auto 0;
+    }
+}
+
+@media (max-width: 450px) {
+    #home .picturesHome {
+        display: none;
     }
 }
