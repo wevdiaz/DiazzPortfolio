@@ -171,8 +171,12 @@
         font-size: 2rem;        
     }
 
+    .contact-details .email, .contact-details .city {        
+        padding: 0.8rem 1rem;
+    }
+
     .contact-details .email a, .contact-details .city span {        
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .contact-details .social-media {

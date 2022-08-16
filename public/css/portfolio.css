@@ -151,13 +151,20 @@
 
     position: fixed;
     bottom: 70px;
-    right: 50px;
-    margin-right: 50px;
+    right: 30px;
+
+    opacity: 0;
+    visibility: hidden;
 }
 
 .button-float:hover {
     background-color: var(--color-primary);
     color: #fff;
+}
+
+.button-float.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Dark Theme */
@@ -188,10 +195,22 @@
 
 /* Responsive */
 
+@media (max-width: 1100px) {
+
+    .button-float {        
+        right: 25px;
+    }
+}
+
 @media (max-width: 900px) {
     .portfolio-repositories {        
         grid-template-columns: 1fr;
     }   
+
+    .button-float {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -268,5 +287,12 @@
         padding: 1.4rem;
         width: 11rem;
         font-size: 1rem;        
+    }
+}
+
+@media (max-width: 376px) {
+
+    .button-float {        
+        right: 15px;
     }
 }
