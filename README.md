@@ -2,6 +2,12 @@
 
 ***
 
+<p align="center">
+    <img src="https://github.com/wevdiaz/DiazzPortfolio/blob/main/images/tela_Diazzportfolio.png?raw=true" />
+</p>
+
+***
+
 <p align="center">  
       <a>
           <img src="https://img.shields.io/github/repo-size/wevdiaz/DiazzPortfolio?color=%233498DB">      
