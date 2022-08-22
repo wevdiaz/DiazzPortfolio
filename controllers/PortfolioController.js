@@ -14,7 +14,7 @@ module.exports = {
   async portfolio(req, res) {  
 
     axios({
-      baseURL: "https://api.github.com/users/wevdiaz/repos",
+      baseURL: "https://api.github.com/users/wevdiaz/repos?sort=updated&per_page=50",
     }).then((response) => {
       return response.data;
     }).then((response) => {
