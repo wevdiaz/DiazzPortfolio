@@ -278,6 +278,12 @@ body.dark {
 
 /* Responsive */
 
+@media (min-width: 1500px) {
+    .container {
+        width: 70%;
+    }
+}
+
 @media (max-width: 900px) {
     nav .menu {
         display: none;

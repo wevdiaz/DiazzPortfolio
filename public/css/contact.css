@@ -112,6 +112,17 @@
 
 /* Responsive */
 
+@media (min-width: 1500px) {
+    #contact {        
+        padding-top: 8rem;
+        height: 100%;
+    }
+
+    #contact .contact-container {        
+        margin-bottom: 4rem;
+    }
+}
+
 @media (max-width: 1100px) {
     #contact .contact-container {
         width: 80rem;

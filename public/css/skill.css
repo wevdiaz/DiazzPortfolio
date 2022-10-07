@@ -248,6 +248,31 @@
 
 /* Responsive */
 
+@media (min-width: 1500px) {
+    .leafs {
+        width: 100%;
+    }
+
+    #skill .skill-hardskill,
+    #skill .skill-softskill {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .gallery-skill {
+        height: max-content;
+    }
+
+    .gallery-skill .gallery-image-selected {
+        width: 120rem;
+    }
+
+    .gallery-images {
+        width: 120rem;
+    }
+}
+
 @media (max-width: 1100px) {
     .gallery-skill .gallery-image-selected {
         width: 76rem;
