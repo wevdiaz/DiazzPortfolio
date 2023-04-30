@@ -228,6 +228,29 @@
     font-style: italic;
 }
 
+#btn-cv {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-cv .btn {
+    width: 20rem;
+    margin-top: 4rem;
+    display: block;
+    background-color: var(--color-btn-cv);
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 250ms ease-in-out;
+}
+
+#btn-cv .btn:hover {
+    background-color: var(--color-btn-cv-hover);
+}
+
 
 /* Dark Theme */
 

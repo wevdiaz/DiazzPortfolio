@@ -62,7 +62,11 @@
     color: var(--color-base-font);
 }
 
-#home .contentHome .descriptionHome .btnCv {
+#home .contentHome .descriptionHome .emphasis {
+    font-weight: bolder;
+}
+
+#home .contentHome .descriptionHome .btn {
     width: 25rem;
     margin-top: 4rem;
     display: block;
