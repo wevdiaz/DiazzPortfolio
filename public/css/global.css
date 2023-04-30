@@ -216,6 +216,41 @@ footer small {
     background-color: var(--color-btn-cv-hover);
 }
 
+.button-float {
+    background-color: #efefef;
+    width: 50px;
+    height: 50px;
+    padding: .8rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary);
+    color: var(--color-primary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .4s;
+
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.button-float:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.button-float.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /* Dark Mode */
 
@@ -272,6 +307,17 @@ body.dark {
 }
 .dark footer {
     background-color: #111;
+    color: var(--color-primary);
+}
+
+.dark .button-float {
+    background-color: var(--color-primary);
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark .button-float:hover {
+    background-color: #fff;
     color: var(--color-primary);
 }
 
