@@ -3,7 +3,7 @@
 ***
 
 <p align="center">
-    <img src="https://github.com/wevdiaz/DiazzPortfolio/blob/main/images/tela_Diazzportfolio.png?raw=true" />
+    <img src="https://raw.githubusercontent.com/wevdiaz/DiazzPortfolio/main/images/telaportfolio2023.png" />
 </p>
 
 ***
@@ -32,7 +32,7 @@
 
 ### :speech_balloon: Sobre
 
-Criação do meu primeiro portfolio, elaborado do zero, desde do layout até o desenvolvimento do projeto no código e o seu deploy. Veja [aqui](https://diazzportfolio.herokuapp.com/)
+Criação do meu primeiro portfolio, elaborado do zero, desde do layout até o desenvolvimento do projeto no código e o seu deploy.
  
  ### :hammer_and_wrench: Tecnologias
  
