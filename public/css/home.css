@@ -81,7 +81,7 @@
     transition: all 250ms ease-in-out;
 }
 
-#home .contentHome .descriptionHome .btnCv:hover {
+#home .contentHome .descriptionHome .btn:hover {
     background-color: var(--color-btn-cv-hover);
 }
 
