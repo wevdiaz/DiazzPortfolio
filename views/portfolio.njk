@@ -23,30 +23,46 @@
                 <div class="leaf"></div>
             </div>
 
-            <div class="portfolio-repositories">
-
-                {% for repository in repositories %}
-                    <div class="portfolio-repository">
-                        <div class="portfolio-repository-icon">
-                            <ion-icon name="reader-outline"></ion-icon>
+            <div id="portfolio-content">
+                <section class="portfolio-project">
+                    <div class="box-arrow-border">L</div>
+                    <h2>Nome do Projeto</h2>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusamus ad animi iure facere, debitis incidunt aliquam exercitationem placeat vero? Laborum vero, cupiditate ex expedita perspiciatis facere quos aspernatur dolor?
+                                Minima, rerum ab nam, provident corporis quisquam necessitatibus beatae unde eum culpa excepturi dolorem dolores et enim totam. Id aperiam sed amet modi ipsam est vero officia itaque neque maiores?
+                                Labore, earum necessitatibus in eligendi sint ad quis reprehenderit neque at. Accusamus veniam voluptates obcaecati dolor, unde nihil esse! Repellendus blanditiis atque omnis voluptates repellat, et repudiandae voluptatem nostrum ex.
+                            </p>
                         </div>
-                        <div class="portfolio-description">
-                            <h2>{{ repository.name }}</h2>
-                            
-                            {% if repository.description ===  null %}
-                                <p>O projeto está sem descrição</p>
-                            {% else %}
-                                <p>{{ repository.description }}</p>
-                            {% endif %}
-                            <a href="{{ repository.html_url }}" target="_blank" rel="noopener noreferrer">
-                                Veja mais
-                                <ion-icon name="log-out-outline"></ion-icon>
-                            </a>
+                        <div class="project-image">
+                            <img src="./assets/images/portfolio/project01.png" alt="devfinance - projeto 01">
                         </div>
                     </div>
-                {% endfor %}
-                               
-                
+                    <footer class="project-footer">
+                        <div class="project-technology">
+                            <h3>Tecnologias em destaque</h3>
+                            <div class="box-technology">
+                                <div class="item-tech">
+                                    <img src="./assets/images/icon_html5.svg" alt="logo HTML5">
+                                </div>
+                                <div class="item-tech">
+                                    <img src="./assets/images/icon_css3.svg" alt="logo CSS3">
+                                </div>
+                                <div class="item-tech">
+                                    <img src="./assets/images/icon_javascript.svg" alt="logo Javascript">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="btn">acesse</a>
+                    </footer>
+
+                     <div class="leafs">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                    </div>
+                </section>
             </div>
             
             {% include "parts/button-float.njk"%}
