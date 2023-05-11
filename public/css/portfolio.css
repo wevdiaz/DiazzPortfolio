@@ -112,6 +112,67 @@
     width: 100%;
 }
 
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 3.2rem;
+}
+
+.project-footer .project-technology {
+    width: 400px;
+}
+
+.project-footer .project-technology h3 {
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.project-footer .box-technology {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-footer .box-technology .item-tech {
+    width: 50px;
+    height: 50px;
+}
+
+.buttons-project-footer {
+    display: flex;
+    justify-content: center;
+
+    width: 500px;
+}
+
+.buttons-project-footer a + a {
+    margin-left: 1.6rem;
+}
+
+.buttons-project-footer a + a ion-icon {
+    padding-left: .4rem;
+}
+
+.project-footer .buttons-project-footer .btn-project {
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--color-primary);
+    display: flex;
+    height: 45px;
+    width: 100px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 25px;
+
+    transition: background .3s;
+}
+
+.project-footer .buttons-project-footer .btn-project:hover {
+    background: var(--color-btn-cv-hover);
+}
+
 /* Dark Theme */
 
 .dark .portfolio-header h1 {
