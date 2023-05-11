@@ -30,6 +30,8 @@
     --color-card: var(--color-secondary);
     --color-icon-sun: #EE5A24;
     --color-icon-moon: #fff200;
+    --color-btn-repository: #636e72;
+    --color-btn-repository-hover: #dfe6e9;
 
     /* Dark Theme Colors */
     --color-bg-dark: #17202A ;

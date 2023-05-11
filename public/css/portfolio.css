@@ -169,8 +169,18 @@
     transition: background .3s;
 }
 
+.project-footer .buttons-project-footer .btn-project.btn-repository {
+    background-color: var(--color-btn-repository);
+}
+
+.project-footer .buttons-project-footer .btn-project.btn-repository:hover {
+    background-color: var(--color-btn-repository-hover);
+    color: var(--color-btn-repository);
+}
+
 .project-footer .buttons-project-footer .btn-project:hover {
-    background: var(--color-btn-cv-hover);
+    background: var(--color-font-nav-hover);
+    color: var(--color-primary);
 }
 
 /* Dark Theme */
