@@ -53,83 +53,63 @@
     display: flex;
 }
 
-.portfolio-repositories {
-    padding: .8rem;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+#portfolio-content {
+    padding: 8px;
+    max-width: 1440px;
 }
 
-.portfolio-repositories  .portfolio-repository {
-    display: flex;   
-    margin-bottom: 2rem;
-    height: 37rem;
+.portfolio-project {
+    margin-bottom: 16px;
+    width: 100%;
+
+    position: relative;
 }
 
-.portfolio-repository .portfolio-repository-icon {
-    width: 10rem;
-    background-color: var(--color-text-title);
-    color: white;
-    font-weight: bold;
-    font-size: 3rem;
-    border-radius: 1rem 0 0 1rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.portfolio-project .box-arrow-border {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+   
+    border-left: 7px solid var(--color-primary);
+    border-top: 7px solid var(--color-primary);
 }
 
-.portfolio-repository .portfolio-description {
-    padding: 1.6rem;
-    background-color: var(--color-card-Portfolio);
-    border-radius: 0 1rem 1rem 0;
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-
-.portfolio-repository .portfolio-description h2 {
-    font-size: 2rem;
-    line-height: 30px;
+.portfolio-project h2 {
+    padding-left: 3.2rem;
+    margin-top: 1.6rem;
     color: var(--color-primary);
-    margin-bottom: .8rem;
 }
 
-.portfolio-repository .portfolio-description p {
-    font-size: 1.6rem;
-    line-height: 26px;
-    color: var(--color-base-font);
-    opacity: 0.7;
-    margin-bottom: 3rem;
-}
-
-.portfolio-repository .portfolio-description a {
-    background-color: var(--color-btn-cv);
-    padding: 1.6rem;
-    margin-bottom: 1.6rem;
-    width: 13rem;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #fff;
-    border-radius: 1.6rem;
-
+.portfolio-project .project-content {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 
-    transition: background-color .5s;
+    padding: 1.6rem;
 }
 
-.portfolio-repository .portfolio-description a:hover {
-    background-color: var(--color-btn-cv-hover);
+.project-content .project-description {
+    width: 350px;
 }
 
-.portfolio-repository .portfolio-description a ion-icon {
-    font-size: 2rem;
+.project-content .project-description p {
+    text-align: justify;
+}
+
+.project-content .project-description p a {
+    color: var(--color-primary);
+}
+
+.project-content .project-description p a:hover {
+    color: var(--color-auxiliary);
+}
+
+.project-content .project-image {
+    width: 500px;
+}
+
+.project-content .project-image img {
+    width: 100%;
 }
 
 /* Dark Theme */
