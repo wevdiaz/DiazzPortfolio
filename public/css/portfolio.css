@@ -90,6 +90,7 @@
 
 .project-content .project-description {
     width: 35rem;
+    max-width: 45rem;
 }
 
 .project-content .project-description p {
@@ -199,22 +200,51 @@
 
 /* Responsive */
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
+
+    .project-content .project-image {
+        width: 40rem;
+    }
 
     .button-float {        
         right: 25px;
     }
 }
 
-@media (max-width: 900px) {
-    .portfolio-repositories {        
-        grid-template-columns: 1fr;
-    }   
+@media (max-width: 995px) {
+
+    .portfolio-project .project-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project-content .project-description {
+        margin-top: 3.2rem;
+    }
+     
 
     .button-float {
         width: 35px;
         height: 35px;
     }
+}
+
+@media (max-width: 768px) {
+
+    .project-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-footer .box-technology .item-tech {
+        width: 40px;
+        height: 40px;
+    }
+   
+    .buttons-project-footer {
+        padding-top: 3.2rem;
+    }
+    
 }
 
 @media (max-width: 575px) {
@@ -253,45 +283,7 @@
         height: 3rem;        
     }
 
-    .portfolio-repositories {
-        padding: 0;       
-    }
-
-    .portfolio-repositories .portfolio-repository {        
-        flex-direction: column;
-        width: 250px;
-        justify-self: center;
-    }
     
-    .portfolio-repository .portfolio-repository-icon {
-        width: 100%;        
-        font-size: 2.4rem;
-        border-radius: 1rem 1rem 0 0;
-        display: flex;
-        align-items: left;
-        padding: 0.8rem;
-        justify-content: left;
-    }
-
-    .portfolio-repository .portfolio-description {       
-        border-radius: 0;        
-    }
-
-    .portfolio-repository .portfolio-description h2 {
-        font-size: 1.6rem;
-        line-height: 26px;        
-    }
-
-    .portfolio-repository .portfolio-description p {
-        font-size: 1.4rem;
-        line-height: 24px;        
-    }
-
-    .portfolio-repository .portfolio-description a {        
-        padding: 1.4rem;
-        width: 11rem;
-        font-size: 1rem;        
-    }
 }
 
 @media (max-width: 376px) {
