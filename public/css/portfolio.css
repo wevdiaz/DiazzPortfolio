@@ -35,6 +35,15 @@
     align-items: center;
 }
 
+.portfolio-header .total-projects .link-repository {
+    display: flex;
+    transition: color .3s;
+}
+
+.portfolio-header .total-projects .link-repository:hover ion-icon{
+    color: #000;
+}
+
 .portfolio-header .total-projects ion-icon {
     font-size: 2.2rem;
     font-weight: bold;
@@ -283,10 +292,65 @@
         height: 3rem;        
     }
 
-    
+    .portfolio-project .project-content {
+        padding: .8rem;
+    }
+
+    .portfolio-project .box-arrow-border {
+        width: 20px;
+        height: 20px;    
+    }
+
+    .portfolio-project h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .project-content .project-description p {
+        font-size: 1.4rem;
+    }
+
+    .project-content .project-description {
+        width: 30rem;
+        margin: 1.6rem;
+    }
+
+    .project-content .project-image {
+        width: 30rem;
+    }
+
+    .project-footer .project-technology h3 {        
+        font-size: 1.6rem;
+    }
+
+    .project-footer .box-technology .item-tech {
+        width: 30px;
+        height: 30px;
+    }
+
+    .project-footer .buttons-project-footer .btn-project {        
+        height: 40px;
+        width: 90px;        
+        font-size: 1.4rem;
+    }
+
+    .project-footer {
+        padding-top: 0.8rem;
+        border-top: 1px solid #ccc;
+    }
+
 }
 
 @media (max-width: 376px) {
+
+    .project-content .project-description {
+        width: 25rem;
+    }
+
+    .project-content .project-image {
+        width: 25rem;
+    }
 
     .button-float {        
         right: 15px;
